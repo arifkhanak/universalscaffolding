@@ -35,19 +35,27 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
-      style="max-width: 1210px;">
+      style="max-width: 1210px;" style="max-width: 1210px;">
+
       <a href="index.html" class="d-flex align-items-center">
         <img src="assets/img/logo/logo-bgr.png" style="height: 75px;border-radius: 5px;" class="universal-logo-main"
           alt="Universal Scaffolding Logo">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="products.html">PRODUCTS</a></li>
-          <li><a href="design-engineering.html">DESIGN & ENGG</a></li>
-          <li><a href="equipment.html">EQUIPMENT</a></li>
+          <!-- <li><a href="design-engineering.html"></a></li> -->
+          <li class="dropdown"><a href="#"><span>DESIGN & ENGINEERING</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="design-engineering.html">Design & Engineering</a></li>
+              <li><a href="equipment.html">Equipment</a></li>
+              <li><a href="catalog.html">Products Catalog</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="equipment.html">EQUIPMENT</a></li> -->
           <li><a href="industries-served.html">INDUSTRIES SERVED</a></li>
           <li><a href="rentals.html">RENTALS</a></li>
           <li><a href="contact.html">CONTACT US</a></li>
@@ -318,7 +326,7 @@
 
         <div class="col-lg-3 col-md-3 footer-links">
           <h4>Our Services</h4>
-           <ul>
+          <ul>
             <li><a href="design-engineering.html">Design & Engineering</a></li>
             <li><a href="equipment.html">Equipment</a></li>
             <li><a href="industries-served.html">Industries Served</a></li>
